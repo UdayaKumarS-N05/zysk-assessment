@@ -13,7 +13,7 @@ function Features() {
         <div>and retain more users. Trusted by over 4,000 startups.</div>
       </div>
       {/* Grid */}
-      <div className="w-full mt-4 grid grid-rows-2 grid-cols-3 px-10 gap-y-16 md:block md:px-2 ">
+      <div className="w-full mt-4 grid grid-rows-2 grid-cols-3 px-10 gap-y-16 md:block ">
         <div className="flex flex-col items-center md:w-full">
           <svg
             width="52"
