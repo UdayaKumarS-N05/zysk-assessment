@@ -16,7 +16,7 @@ function Features2() {
       </div>
       <div>
         <img
-          src="/phone.png"
+          src="public/phone.png"
           alt="dashboard on mobile and desktop"
           //   className="border border-green-500"
         />

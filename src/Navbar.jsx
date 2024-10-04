@@ -24,7 +24,7 @@ function Navbar() {
       </div>
       <div className=" w-[50px] h-[50px] rounded-[50%] ">
         <img
-          src="public/65a752b0fec11d8c4c9beaf7_Olivia Rhye-p-500.jpg"
+          src="65a752b0fec11d8c4c9beaf7_Olivia Rhye-p-500.jpg"
           alt="profile picture"
           className="rounded-[50%]"
         />

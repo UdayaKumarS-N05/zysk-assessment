@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import CompaniesMarquee from "./CompaniesMarquee";
 import Dashboard from "./Dashboard";
+import Faqs from "./Faqs";
 import Features from "./Features";
 import Features2 from "./Features2";
 import Navbar from "./Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Testimonial />
       <Features2 />
+      <Faqs />
     </div>
   );
 }
