@@ -78,7 +78,7 @@ function Testimonial() {
         </p>
       </div>
       <img
-        src="public/65a74ee6e1c4fb9187e6f56a_Candice Wu-p-500.jpg"
+        src="./65a74ee6e1c4fb9187e6f56a_Candice Wu-p-500.jpg"
         alt="Candice_Wu"
         className="rounded-full w-16"
       />

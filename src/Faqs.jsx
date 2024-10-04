@@ -46,7 +46,7 @@ function Faqs() {
       <div className="w-full md:w-screen md:px-8">
         <div className="  flex flex-col items-center bg-[#F9FAFB] h-80">
           <img
-            src="public/chat.png"
+            src="./chat.png"
             alt="chat group"
             className="w-[120px] h-[56px] my-8"
           />

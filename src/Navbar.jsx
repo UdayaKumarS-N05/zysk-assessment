@@ -12,7 +12,7 @@ function Navbar() {
       <div className="flex justify-between items-center md:w-screen  ">
         <Logo />
         <div
-          className=" p-2 rounded-xl bg-[#ECFDF3]"
+          className=" p-2 rounded-xl bg-[#ECFDF3] lg:hidden xl:hidden 2xl:hidden 3xl:hidden"
           onClick={() => handleToggle()}
         >
           <button className="hidden md:block ">
@@ -20,7 +20,7 @@ function Navbar() {
               <RxCross2 className="w-6 h-6 mr-0 top-0" />
             ) : (
               <img
-                src="public/hamburger.png"
+                src="./hamburger.png"
                 alt=""
                 className="w-6 h-6 mr-0 top-0"
               />

@@ -44,7 +44,7 @@ function Blogposts() {
             </div>
             <div className="flex items-center gap-1">
               <img
-                src="public/65a752b0fec11d8c4c9beaf7_Olivia Rhye-p-500.jpg"
+                src="./65a752b0fec11d8c4c9beaf7_Olivia Rhye-p-500.jpg"
                 alt=""
                 className="w-[40px] h-[40px] rounded-full"
               />
@@ -56,7 +56,7 @@ function Blogposts() {
           </div>
           <div className=" w-[384px]  md:w-screen md:px-2 md:mt-14">
             <img
-              src="public/product.png"
+              src="./product.png"
               alt="blog image"
               className=" w-full h-[240px]"
             />
@@ -75,7 +75,7 @@ function Blogposts() {
             </div>
             <div className="flex items-center gap-1">
               <img
-                src="public/65a752dbfb2186598946bfe7_Phoenix Baker-p-500.jpg"
+                src="./65a752dbfb2186598946bfe7_Phoenix Baker-p-500.jpg"
                 alt=""
                 className="w-[40px] h-[40px] rounded-full"
               />
@@ -87,7 +87,7 @@ function Blogposts() {
           </div>
           <div className=" w-[384px]  md:w-screen md:px-2 md:mt-14">
             <img
-              src="public/softwareEngineering.png"
+              src="./softwareEngineering.png"
               alt="blog image"
               className=" w-full h-[240px]"
             />
@@ -106,7 +106,7 @@ function Blogposts() {
             </div>
             <div className="flex items-center gap-1">
               <img
-                src="public/65a751741ddf78d3cc798f24_Lana Steiner-p-500.jpg"
+                src="./65a751741ddf78d3cc798f24_Lana Steiner-p-500.jpg"
                 alt=""
                 className="w-[40px] h-[40px] rounded-full"
               />

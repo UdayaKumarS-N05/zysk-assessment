@@ -16,12 +16,12 @@ function Features2() {
       </div>
       <div className="md:mb-0">
         <img
-          src="public/phone.png"
+          src="./phone.png"
           alt="dashboard on mobile and desktop"
           className="md:hidden"
         />
         <img
-          src="public/iphone.png"
+          src="./iphone.png"
           alt="dashboard on mobile and desktop"
           className="md:block md:px-2 lg:hidden xl:hidden 2xl:hidden 3xl:hidden"
         />
