@@ -32,18 +32,18 @@ function Faqs() {
   return (
     <div className="w-full flex flex-col items-center pb-20 border-b-[1px] border-slate-400/15">
       <div className=" flex flex-col items-center">
-        <div className="text-[36px] text-[#101828]">
+        <div className="text-[36px]  md:text-[30px] text-center text-[#101828] md:px-8 font-semibold">
           Frequently asked questions
         </div>
-        <div className="text-[20px] text-[#475467] mt-4">
+        <div className="text-[20px] md:text-[18px] text-[#475467] mt-4 md:px-8 text-center">
           Everything you need to know about the product and billing.
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 ">
         <QuestionList />
       </div>
 
-      <div className="w-full ">
+      <div className="w-full md:w-screen md:px-8">
         <div className="  flex flex-col items-center bg-[#F9FAFB] h-80">
           <img
             src="public/chat.png"
@@ -51,7 +51,7 @@ function Faqs() {
             className="w-[120px] h-[56px] my-8"
           />
           <div className="font-semibold mb-4">Still have questions?</div>
-          <div className="text-[#475467] mb-4">
+          <div className="text-[#475467] mb-4 text-center">
             Can&apos;t find the answer you&apos;re looking for? Please chat to
             our friendly team.
           </div>
@@ -77,7 +77,7 @@ function Question({ title, text, num, onOpen, curOpen }) {
         handleToggle();
       }}
     >
-      <div className="question flex items-center w-[768px] justify-between ">
+      <div className="question flex items-center w-[768px] justify-between md:w-screen md:px-8">
         <p className="title text-[18px] text-[#101828] font-medium">{title}</p>
         <p className="icon text-[16px] text-[#475467]">
           {isOpen ? <LuMinusCircle /> : <LuPlusCircle />}
@@ -91,7 +91,7 @@ function Question({ title, text, num, onOpen, curOpen }) {
 function QuestionList() {
   const [curOpen, setIsOpen] = useState();
   return (
-    <div>
+    <div className="">
       {faqs.map((q, i) => (
         <Question
           title={q.title}

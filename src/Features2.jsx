@@ -1,28 +1,33 @@
 function Features2() {
   return (
-    <div className="pt-24  flex flex-col items-center justify-center mb-20 border-b-[1px] border-slate-400/15">
-      <div className="text-[#6941C6]  font-medium bg-[#F9F5FF] border border-[#E9D7FE] rounded-full py-[0.1rem] px-[0.6rem]">
+    <div className="pt-24  flex flex-col items-center justify-center mb-20 border-b-[1px] border-slate-400/15 md:w-fit md:mt-10 md:mb-52 h-full md:border-none">
+      <div className="text-[#6941C6]  font-medium bg-[#F9F5FF] border border-[#E9D7FE] rounded-full py-[0.1rem] px-[0.6rem] md:text-[14px]">
         Features
       </div>
-      <div className="text-[#101828] text-[36px]">
+      <div className="text-[#101828] text-[36px] md:text-[30px] md:text-center font-semibold md:px-4">
         Cutting-edge features for advanced analytics
       </div>
-      <div className="text-[#475467] px-10  mt-4  flex flex-col items-center mb-8">
+      <div className="text-[#475467] px-10  mt-4  mb-8 md:text-[18px] text-center md:mt-8 ">
         <div>
           Powerful, self-serve product and growth analytics to help you
           convert,engage,
         </div>
         <div>and retain more users. Trusted by over 4,000 startups.</div>
       </div>
-      <div>
+      <div className="md:mb-0">
         <img
           src="public/phone.png"
           alt="dashboard on mobile and desktop"
-          //   className="border border-green-500"
+          className="md:hidden"
+        />
+        <img
+          src="public/iphone.png"
+          alt="dashboard on mobile and desktop"
+          className="md:block md:px-2 lg:hidden xl:hidden 2xl:hidden 3xl:hidden"
         />
       </div>
-      <div className="w-full grid grid-rows-1 grid-cols-3 my-20">
-        <div className="flex flex-col items-center">
+      <div className="w-full grid grid-rows-1 grid-cols-3 my-20 md:-my-44 md:block">
+        <div className="flex flex-col items-center md:mt-8 ">
           <svg
             width="52"
             height="52"
@@ -86,14 +91,14 @@ function Features2() {
             </defs>
           </svg>
           <p className="my-2 font-medium">Share team inboxes</p>
-          <p className="text-[#475467] px-10   flex flex-col items-center ">
+          <p className="text-[#475467] px-10   text-center md:w-full md:px-2 md:text-[16px]">
             Whether you have a team of 2 or 200, our shared
             <p>team inboxes keep everyone on the same page</p>
             <p> and in the loop.</p>
           </p>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center md:mt-8 ">
           <svg
             width="52"
             height="52"
@@ -165,7 +170,7 @@ function Features2() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center  md:mt-8 md:border-b-[1px] md:border-slate-400/15 md:pb-10">
           <svg
             width="52"
             height="52"

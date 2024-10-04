@@ -1,14 +1,15 @@
 function CompaniesMarquee() {
   return (
-    <div className="mt-24 flex flex-col justify-center items-center  border-b-2">
+    <div className="mt-24 flex flex-col justify-center items-center  border-b-2 md:mt-12">
       <div>Join 4,000+ companies already growing</div>
-      <div className="my-4 mb-24  ">
+      <div className="my-4 mb-24 md:mb-12 ">
         <svg
           width="1216"
           height="48"
           viewBox="0 0 1216 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="md:flex md:w-80"
         >
           <path
             fillRule="evenodd"

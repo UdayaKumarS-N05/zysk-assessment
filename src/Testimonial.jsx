@@ -72,7 +72,7 @@ function Testimonial() {
         </svg>
       </div>
       <div>
-        <p className="text-[#101828] px-10   flex flex-col items-center text-[48px] ">
+        <p className="text-[#101828] px-10 font-medium  text-center md:w-full md:px-2 text-[48px] md:text-[30px]">
           We&apos;ve been using Untitled to kick start every new
           <p>project and can&apos;t imagine working without it.</p>
         </p>
