@@ -25,7 +25,7 @@ function Blogposts() {
         <div className="mt-4 flex gap-8 justify-between w-full items-center px-10 md:block md:px-0 md:w-screen ">
           <div className=" w-[384px]  md:w-screen md:px-2 md:mt-14">
             <img
-              src="public/design.png"
+              src="./design.png"
               alt="blog image"
               className=" w-full h-[240px]"
             />
