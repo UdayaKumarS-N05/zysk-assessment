@@ -12,7 +12,7 @@ function Navbar() {
       <div className="flex justify-between items-center md:w-screen  ">
         <Logo />
         <div
-          className=" p-2 rounded-xl bg-[#ECFDF3] lg:hidden xl:hidden 2xl:hidden 3xl:hidden"
+          className=" p-2 rounded-xl bg-[#ECFDF3] hidden md:block"
           onClick={() => handleToggle()}
         >
           <button className="hidden md:block ">

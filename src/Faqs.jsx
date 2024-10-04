@@ -4,27 +4,27 @@ import { LuMinusCircle, LuPlusCircle } from "react-icons/lu";
 const faqs = [
   {
     title: "Is there a free trial available?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     title: "Can I change my plan later?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     title: "What is your cancellation policy?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     title: "Can other info be added to an invoice?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     title: "How does billing work?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     title: "How do I change my account email?",
-    text: " Yes, you can try us for free for 30 days. If you want, we&apos;ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    text: " Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
 ];
 
@@ -83,7 +83,9 @@ function Question({ title, text, num, onOpen, curOpen }) {
           {isOpen ? <LuMinusCircle /> : <LuPlusCircle />}
         </p>
       </div>
-      {isOpen && <p className="answer w-[768px] mt-8">{text}</p>}
+      {isOpen && (
+        <p className="answer w-[768px] mt-8 md:w-fit md:text-[14px]">{text}</p>
+      )}
     </div>
   );
 }
