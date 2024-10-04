@@ -148,7 +148,6 @@ function Features() {
               </filter>
             </defs>
           </svg>
-
           <p className="my-2 font-medium">Deliver instant answers</p>
           <p className="text-[#475467] px-10   text-center md:w-full md:px-2  md:text-[14px]">
             An all-in-one customer service platform that helps

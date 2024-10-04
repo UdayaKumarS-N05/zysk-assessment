@@ -163,7 +163,7 @@ function Features2() {
           </svg>
 
           <p className="my-2 font-medium">Deliver instant answers</p>
-          <p className="text-[#475467] px-10   flex flex-col items-center ">
+          <p className="text-[#475467] px-10   flex flex-col items-center text-center md:w-full md:px-2 md:text-[16px]">
             An all-in-one customer service platform that helps
             <p>you balance everything your customers need to be</p>
             <p> happy.</p>
@@ -235,7 +235,7 @@ function Features2() {
           </svg>
 
           <p className="my-2 font-medium">Manage your team with reports</p>
-          <p className="text-[#475467] px-10   flex flex-col items-center ">
+          <p className="text-[#475467] px-10   flex flex-col items-center text-center md:w-full md:px-2 md:text-[16px]">
             Manage your team with reports
             <p>reports. You can filter, export, and drilldown on the</p>
             <p> data in a couple clicks.</p>
