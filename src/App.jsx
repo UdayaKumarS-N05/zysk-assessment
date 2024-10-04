@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Blogposts from "./Blogposts";
 import CompaniesMarquee from "./CompaniesMarquee";
 import Dashboard from "./Dashboard";
 import Faqs from "./Faqs";
@@ -17,6 +18,7 @@ function App() {
       <Testimonial />
       <Features2 />
       <Faqs />
+      <Blogposts />
     </div>
   );
 }
