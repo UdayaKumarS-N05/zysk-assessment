@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard";
 import Faqs from "./Faqs";
 import Features from "./Features";
 import Features2 from "./Features2";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Testimonial from "./Testimonial";
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Features2 />
       <Faqs />
       <Blogposts />
+      <Footer />
     </div>
   );
 }
