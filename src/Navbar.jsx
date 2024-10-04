@@ -7,7 +7,6 @@ function Navbar() {
   function handleToggle() {
     isNavOpen(navOpen ? null : true);
   }
-  console.log(navOpen);
   return (
     <div className="flex justify-between  items-center mt-2 border-b-[1px] border-slate-400/15 mb-6 px-10 md:px-8 relative md:w-screen">
       <div className="flex justify-between items-center md:w-screen  ">
